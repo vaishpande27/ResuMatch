@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Match Result</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/style.css"> <!-- Linking External CSS -->
+</head>
+<body>
+
+    <div class="container">
+        <div class="card mx-auto" style="max-width: 600px;">
+            <div class="card-header">
+                <h2>Resume Match Score</h2>
+            </div>
+            <div class="card-body text-center">
+                <p><strong>Job Description:</strong></p>
+                <p class="description-box"><%= jobDescription %></p>
+
+                <h3 class="score-text">Match Score: <span class="score-value"><%= score %>%</span></h3>
+
+                <a href="/" class="btn btn-primary mt-3">Upload Another Resume</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
+
