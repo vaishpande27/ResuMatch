@@ -20,6 +20,10 @@ A **Resume Analyzer** built with **Node.js, Express, and EJS** that allows users
 - **NLP Matching:** `natural` (TF-IDF for better scoring)  
 
 ---
+## Folder Structure
+![projectstructure](https://github.com/user-attachments/assets/f4c47a08-7e73-46df-82c6-17adddca64e5)
+
+
 
 ## 📥 Installation & Setup
 
